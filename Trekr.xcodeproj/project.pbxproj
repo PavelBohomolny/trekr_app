@@ -13,6 +13,9 @@
 		FA58855129688E5B005F2A32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA58855029688E5B005F2A32 /* Preview Assets.xcassets */; };
 		FA58855929689BA6005F2A32 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = FA58855729689BA6005F2A32 /* tips.json */; };
 		FA58855A29689BA6005F2A32 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = FA58855829689BA6005F2A32 /* locations.json */; };
+		FA58855C2968A337005F2A32 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58855B2968A337005F2A32 /* Location.swift */; };
+		FA58855E2968A821005F2A32 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58855D2968A821005F2A32 /* Locations.swift */; };
+		FA5885602968AEFF005F2A32 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58855F2968AEFF005F2A32 /* WorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		FA58855029688E5B005F2A32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA58855729689BA6005F2A32 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		FA58855829689BA6005F2A32 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		FA58855B2968A337005F2A32 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		FA58855D2968A821005F2A32 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		FA58855F2968AEFF005F2A32 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				FA58854929688E58005F2A32 /* TrekrApp.swift */,
+				FA58855F2968AEFF005F2A32 /* WorldView.swift */,
 				FA58854B29688E58005F2A32 /* ContentView.swift */,
+				FA58855D2968A821005F2A32 /* Locations.swift */,
+				FA58855B2968A337005F2A32 /* Location.swift */,
 				FA58854D29688E5B005F2A32 /* Assets.xcassets */,
 				FA58855829689BA6005F2A32 /* locations.json */,
 				FA58855729689BA6005F2A32 /* tips.json */,
@@ -146,6 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA58854C29688E58005F2A32 /* ContentView.swift in Sources */,
+				FA58855C2968A337005F2A32 /* Location.swift in Sources */,
+				FA5885602968AEFF005F2A32 /* WorldView.swift in Sources */,
+				FA58855E2968A821005F2A32 /* Locations.swift in Sources */,
 				FA58854A29688E58005F2A32 /* TrekrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
