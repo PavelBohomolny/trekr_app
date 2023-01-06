@@ -11,6 +11,8 @@
 		FA58854C29688E58005F2A32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58854B29688E58005F2A32 /* ContentView.swift */; };
 		FA58854E29688E5B005F2A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA58854D29688E5B005F2A32 /* Assets.xcassets */; };
 		FA58855129688E5B005F2A32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA58855029688E5B005F2A32 /* Preview Assets.xcassets */; };
+		FA58855929689BA6005F2A32 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = FA58855729689BA6005F2A32 /* tips.json */; };
+		FA58855A29689BA6005F2A32 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = FA58855829689BA6005F2A32 /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		FA58854B29688E58005F2A32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA58854D29688E5B005F2A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA58855029688E5B005F2A32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA58855729689BA6005F2A32 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		FA58855829689BA6005F2A32 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				FA58854929688E58005F2A32 /* TrekrApp.swift */,
 				FA58854B29688E58005F2A32 /* ContentView.swift */,
 				FA58854D29688E5B005F2A32 /* Assets.xcassets */,
+				FA58855829689BA6005F2A32 /* locations.json */,
+				FA58855729689BA6005F2A32 /* tips.json */,
 				FA58854F29688E5B005F2A32 /* Preview Content */,
 			);
 			path = Trekr;
@@ -127,6 +133,8 @@
 			files = (
 				FA58855129688E5B005F2A32 /* Preview Assets.xcassets in Resources */,
 				FA58854E29688E5B005F2A32 /* Assets.xcassets in Resources */,
+				FA58855A29689BA6005F2A32 /* locations.json in Resources */,
+				FA58855929689BA6005F2A32 /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
