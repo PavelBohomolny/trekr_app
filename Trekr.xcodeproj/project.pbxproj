@@ -16,6 +16,8 @@
 		FA58855C2968A337005F2A32 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58855B2968A337005F2A32 /* Location.swift */; };
 		FA58855E2968A821005F2A32 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58855D2968A821005F2A32 /* Locations.swift */; };
 		FA5885602968AEFF005F2A32 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58855F2968AEFF005F2A32 /* WorldView.swift */; };
+		FA588562296C337B005F2A32 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA588561296C337B005F2A32 /* Tip.swift */; };
+		FA588564296C34FD005F2A32 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA588563296C34FD005F2A32 /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		FA58855B2968A337005F2A32 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		FA58855D2968A821005F2A32 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		FA58855F2968AEFF005F2A32 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		FA588561296C337B005F2A32 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		FA588563296C34FD005F2A32 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				FA58854929688E58005F2A32 /* TrekrApp.swift */,
 				FA58855F2968AEFF005F2A32 /* WorldView.swift */,
+				FA588561296C337B005F2A32 /* Tip.swift */,
+				FA588563296C34FD005F2A32 /* TipsView.swift */,
 				FA58854B29688E58005F2A32 /* ContentView.swift */,
 				FA58855D2968A821005F2A32 /* Locations.swift */,
 				FA58855B2968A337005F2A32 /* Location.swift */,
@@ -157,6 +163,8 @@
 				FA58854C29688E58005F2A32 /* ContentView.swift in Sources */,
 				FA58855C2968A337005F2A32 /* Location.swift in Sources */,
 				FA5885602968AEFF005F2A32 /* WorldView.swift in Sources */,
+				FA588562296C337B005F2A32 /* Tip.swift in Sources */,
+				FA588564296C34FD005F2A32 /* TipsView.swift in Sources */,
 				FA58855E2968A821005F2A32 /* Locations.swift in Sources */,
 				FA58854A29688E58005F2A32 /* TrekrApp.swift in Sources */,
 			);
